@@ -10,7 +10,7 @@ const config = {
     logoLink: 'https://remdoc.gatsbyjs.io/',
     title:
       "<a href='/'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
-    githubUrl: 'https://github.com/remharbi',
+    githubUrl: '',
     helpUrl: '',
     tweetText: '',
     social: '',
@@ -27,9 +27,11 @@ const config = {
     forcedNavOrder: [
       '/introduction', // add trailing slash if enabled above
       '/codeblock',
+      '/mendix',
     ],
     collapsedNav: [
       '/codeblock', // add trailing slash if enabled above
+      '/mendix',
     ],
     links: [{ text: 'Github', link: 'https://github.com/remharbi' }],
     frontline: false,

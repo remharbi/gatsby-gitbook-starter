@@ -10,6 +10,7 @@ export const StyledNextPrevious = styled('div')`
   grid-template-columns: calc(50% - 8px) calc(50% - 8px);
 
   .previousBtn {
+    width: fit-content;
     cursor: pointer;
     -moz-box-align: center;
     -moz-box-direction: normal;

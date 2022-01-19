@@ -57,7 +57,7 @@ const StyledSwitch = styled('div')`
   }
 
   input:checked + .slider {
-    background: linear-gradient(to right, #fefb72, #f0bb31);
+    
   }
 
   input:checked + .slider:before {
