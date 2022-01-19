@@ -257,7 +257,7 @@ export const baseStyles = css`
     padding: 0 !important;
   }
   .navBarDefault {
-    background-color: #001934;
+    background-color: #443096;
     border-radius: 0;
     border-top: 0;
     margin-bottom: 0;
@@ -369,7 +369,7 @@ export const baseStyles = css`
   /* Header section ends here */
   .sidebarTitle {
     /* box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16); */
-    background-color: #f8f8f8;
+    background-color: #c1aaef;
     padding: 18px 16px;
     font-family: 'Poppins';
     font-size: 18px;
@@ -450,7 +450,7 @@ export const baseStyles = css`
   }
 
   .hideFrontLine .active > a {
-    background-color: #1ed3c6;
+    background-color: #8b6dfd;
     color: #fff !important;
   }
   .firstLevel ul li .collapser svg path {
@@ -470,7 +470,7 @@ export const baseStyles = css`
   }
 
   .sideBarUL .item > a {
-    color: #1ED3C6;
+    color: #8b6dfd;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -508,7 +508,7 @@ export const baseStyles = css`
     border-color: rgb(230, 236, 241) !important;
     border-style: solid none solid solid;
     border-width: 1px 0px 1px 1px;
-    background-color: #1ed3c6 !important;
+    background-color: #8b6dfd !important;
     color: #fff;
   }
 
