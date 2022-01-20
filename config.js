@@ -30,10 +30,12 @@ const config = {
       '/mendix',
     ],
     collapsedNav: [
-      '/codeblock', // add trailing slash if enabled above
-      '/mendix',
       '/cheatsheets',
+      '/codeblock', // add trailing slash if enabled above
       '/gatsbyjs',
+      '/mendix',
+      '/helpfultools'
+
     ],
     links: [{ text: 'Github', link: 'https://github.com/remharbi' }],
     frontline: false,
@@ -45,7 +47,7 @@ const config = {
     description: 'Rem Documentation built with mdx.',
     ogImage: null,
     docsLocation: 'https://github.com/hasura/gatsby-gitbook-boilerplate/tree/master/content',
-    favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
+    favicon: 'src/components/images/android-chrome-512x512.png',
   },
   pwa: {
     enabled: false, // disabling this will also remove the existing service worker.
@@ -59,7 +61,7 @@ const config = {
       crossOrigin: 'use-credentials',
       icons: [
         {
-          src: 'src/pwa-512.png',
+          src: 'src/components/images/android-chrome-512x512.png',
           sizes: `512x512`,
           type: `image/png`,
         },

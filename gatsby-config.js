@@ -48,6 +48,18 @@ const plugins = [
       anonymize: false,
     },
   },
+  {
+    resolve: `gatsby-plugin-manifest`,
+    options: {
+      name: 'Rem Knowledge Base',
+      short_name: 'Rembase',
+      start_url: '/',
+      background_color: '#f7f0eb',
+      theme_color: '#a2466c',
+      display: 'standalone',
+      icon: 'src/components/images/android-chrome-512x512.png',
+    },
+  }
 ];
 // check and add algolia
 if (config.header.search && config.header.search.enabled && config.header.search.algoliaAppId && config.header.search.algoliaAdminKey) {
