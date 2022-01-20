@@ -315,7 +315,7 @@ export const baseStyles = css`
   }
   pre {
     border: 0 !important;
-    background-color: rgb(245, 247, 249); /* !important; */
+    background-color: rgb(40, 42, 54); /* !important; */
   }
 
   blockquote {
