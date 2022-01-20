@@ -32,7 +32,8 @@ const config = {
     collapsedNav: [
       '/codeblock', // add trailing slash if enabled above
       '/mendix',
-      '/cheatsheets'
+      '/cheatsheets',
+      '/gatsbyjs',
     ],
     links: [{ text: 'Github', link: 'https://github.com/remharbi' }],
     frontline: false,

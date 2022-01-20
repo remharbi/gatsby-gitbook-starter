@@ -33,6 +33,7 @@ export const StyledNextPrevious = styled('div')`
   }
 
   .nextBtn {
+    width: fit-content;
     cursor: pointer;
     -moz-box-align: center;
     -moz-box-direction: normal;
@@ -43,7 +44,7 @@ export const StyledNextPrevious = styled('div')`
     display: flex;
     flex-direction: row;
     align-items: center;
-    place-self: stretch;
+    place-self: flex-end;
     border-radius: 3px;
     border: 1px solid rgb(230, 236, 241);
     transition: border 200ms ease 0s;
