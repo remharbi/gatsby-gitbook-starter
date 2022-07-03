@@ -8,6 +8,7 @@ export const StyledNextPrevious = styled('div')`
   grid-template-rows: auto;
   column-gap: 24px;
   grid-template-columns: calc(50% - 8px) calc(50% - 8px);
+  white-space: nowrap;
 
   .previousBtn {
     width: fit-content;

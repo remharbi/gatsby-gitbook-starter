@@ -28,13 +28,15 @@ const config = {
       '/introduction', // add trailing slash if enabled above
       '/codeblock',
       '/mendix',
+      '/reactjs'
     ],
     collapsedNav: [
       '/cheatsheets',
       '/codeblock', // add trailing slash if enabled above
       '/gatsbyjs',
       '/mendix',
-      '/helpfultools'
+      '/helpfultools',
+      '/reactjs'
 
     ],
     links: [{ text: 'Github', link: 'https://github.com/remharbi' }],
