@@ -27,6 +27,7 @@ const config = {
     forcedNavOrder: [
       '/introduction', // add trailing slash if enabled above
       '/codeblock',
+      '/html',
       '/mendix',
       '/reactjs'
     ],
@@ -34,6 +35,7 @@ const config = {
       '/cheatsheets',
       '/codeblock', // add trailing slash if enabled above
       '/gatsbyjs',
+      '/html',
       '/mendix',
       '/helpfultools',
       '/reactjs'
