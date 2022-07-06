@@ -16,4 +16,4 @@ metaDescription: 'Useful Links for HTML, CSS, Javascript'
 
 | Title | Link |
 | ----- | ---- |
-|       |      |
+|  javascript detecting element visible during scroll   |  [link](https://usefulangle.com/post/113/javascript-detecting-element-visible-during-scroll)    |
