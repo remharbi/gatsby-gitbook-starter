@@ -29,7 +29,8 @@ const config = {
       '/codeblock',
       '/html',
       '/mendix',
-      '/reactjs'
+      '/reactjs',
+      '/terminal'
     ],
     collapsedNav: [
       '/cheatsheets',
@@ -38,7 +39,8 @@ const config = {
       '/html',
       '/mendix',
       '/helpfultools',
-      '/reactjs'
+      '/reactjs',
+      '/terminal'
 
     ],
     links: [{ text: 'Github', link: 'https://github.com/remharbi' }],
